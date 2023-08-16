@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    width: 100%;
+    height: 110vh;
+    background: #000;
+}
+#nav{
+    
+    height: 70px;
+    /* background: red; */
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* justify-content: center; */
+   font-size: 12px;
+    
+    text-transform: uppercase;
+    /* border-bottom: 1px solid #dadada; */
+    margin: 0px 40px;
+    font-style: italic;
+   
+}
+ .nav .logo{
+    font-size: 30px;
+ }
+
+.nav1{
+    display: flex;
+    gap: 20px;
+}
+.nav2{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.nav2 button{
+    padding: 10px 12px;
+    /* border-radius: 5px; */
+    border: none;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+#main h1{
+    font-size: 100px;
+    color: #fff;
+    text-align: center;
+    /* line-height: 110px; */
+    font-size: 100px;
+}
+#main h1:nth-child(4){
+    /* color: goldenrod; */
+    z-index: 999;
+    position: absolute;
+   left: 35%;
+}
+
+#main h1 span{
+    background-color: tomato;
+    font-size: 40px;
+    padding: 10px 15px;
+    border-radius: 20px;
+
+}
+#main h1:nth-child(2){
+    color: red;
+    margin-top: 50px;
+}
+
+#main #right-img{
+    height: 250px;
+    position: absolute;
+    top: 100px;
+    left: 90px;
+    border-radius: 30px;
+
+}
+#main #left-img{
+    height: 250px;
+    position: absolute;
+    bottom:  80px;
+    right: 60px;
+    border-radius: 30px;
+
+}
+#main #center-img{
+    height: 180px;
+    width: 250px;
+    position: absolute;
+    top: 65%;
+    left: 23%;
+   
+    
+    border-radius: 30px;
+   
+
+}
